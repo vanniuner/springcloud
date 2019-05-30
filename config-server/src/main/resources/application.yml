@@ -3,10 +3,11 @@ spring:
     config:
       server:
         git:
-          searchPaths: config
+          searchPaths: cloud-config
           uri: https://github.com/vanniuner/springcloud/
           username:
           password:
+          default-label: chapter8
       label: chapter8
   application:
     name: config-server

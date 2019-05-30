@@ -3,12 +3,11 @@ spring:
     name: config-client
   cloud:
     config:
-#      uri: http://localhost:8887/
       profile: dev
-      label: chapter8
       discovery:
         service-id: config-server
         enabled: true
+      label: chapter8
     bus:
       enabled: true
       trace:
