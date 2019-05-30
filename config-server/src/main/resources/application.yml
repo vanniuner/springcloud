@@ -3,7 +3,7 @@ spring:
     config:
       server:
         git:
-          searchPaths: respo
+          searchPaths: config
           uri: https://github.com/vanniuner/springcloud/
           username:
           password:

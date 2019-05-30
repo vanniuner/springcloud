@@ -4,8 +4,8 @@ spring:
   cloud:
     config:
 #      uri: http://localhost:8887/
-      profile:
-      label: master
+      profile: dev
+      label: chapter8
       discovery:
         service-id: config-server
         enabled: true
