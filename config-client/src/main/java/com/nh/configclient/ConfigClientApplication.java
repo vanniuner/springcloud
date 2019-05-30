@@ -13,7 +13,7 @@ import org.springframework.web.bind.annotation.RestController;
 @RestController
 @EnableDiscoveryClient
 @EnableEurekaClient
-@RefreshScope
+//@RefreshScope
 public class ConfigClientApplication {
 
     public static void main(String[] args) {
