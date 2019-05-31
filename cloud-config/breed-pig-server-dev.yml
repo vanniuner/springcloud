@@ -1,5 +1,0 @@
-eureka:
-  client:
-    service-url:
-      defaultZone: http://peer1:8761/eureka
-foo: main

@@ -11,8 +11,8 @@ public class Controller {
     @Autowired
     ServiceDemo serviceDemo;
 
-    @Value("${foo}")
-    String a;
+//    @Value("${foo}")
+    String a = "";
 
     @RequestMapping(value = "consume")
     public String cons(){
