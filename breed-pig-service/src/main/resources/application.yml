@@ -1,16 +1,13 @@
-server:
-  port: 8084
-  servlet:
-    context-path: /breed-pig-service
 spring:
-  application: breed-pig-service
+  application:
+    name: breed-pig-service
   cloud:
     config:
+      profile: dev
       discovery:
         service-id: config-server
         enabled: true
-      label: master #分支
-      profile: dev #环境
+      label: master
     bus:
       enabled: true
       trace:
@@ -20,6 +17,11 @@ spring:
     port: 5672
     username: guest
     password: guest
+
+server:
+  port: 8084
+  servlet:
+    context-path: /breed-pig-service
 eureka:
   client:
     serviceUrl:
