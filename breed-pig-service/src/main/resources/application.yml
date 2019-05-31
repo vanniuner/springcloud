@@ -1,11 +1,13 @@
 server:
   port: 8084
   servlet:
-    context-path: /breed-pig
+    context-path: /breed-pig-service
 spring:
-  application: breed-pig
+  application: breed-pig-service
   cloud:
     config:
-      uri: http://localhost:8888 #配置服务器
+      discovery:
+        service-id: config-server
+        enabled: true
       label: master #分支
       profile: dev #环境
