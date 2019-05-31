@@ -1,10 +1,5 @@
-server:
-  port: 8084
-  servlet:
-    context-path: /breed-pig
-spring:
-  application: breed-pig
 eureka:
   client:
     service-url:
       defaultZone: http://peer1:8761/eureka
+foo: main
