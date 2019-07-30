@@ -13,3 +13,4 @@ lib
 **/.cache-*
 *.ipr
 *.iws
+.idea
