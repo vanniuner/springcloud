@@ -9,6 +9,6 @@ public class PigService {
     Logger logger = LoggerFactory.getLogger(PigService.class);
 
     public void printCn(){
-        logger.info("猪场产能1000万");
+        logger.info("printcn");
     }
 }

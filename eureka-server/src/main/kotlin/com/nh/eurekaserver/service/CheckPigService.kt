@@ -14,7 +14,10 @@ class CheckPigService {
     lateinit var pigService:PigService
 
     fun check(){
-        logger.info("{}","正在开始校验")
+        val str = "start vaild"
+        logger.info("{}",str)
+        logger.info("javaclass.name:{}",str.javaClass.name)
         pigService.printCn()
     }
+
 }
