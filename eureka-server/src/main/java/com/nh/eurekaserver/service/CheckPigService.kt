@@ -8,7 +8,7 @@ import org.springframework.stereotype.Service
 @Service
 class CheckPigService {
 
-    val logger:Logger = LoggerFactory.getLogger(this.javaClass);
+    val logger:Logger = LoggerFactory.getLogger(this.javaClass)
 
     @Autowired
     lateinit var pigService:PigService
