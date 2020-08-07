@@ -1,0 +1,25 @@
+重载和重写的区别? 初级
+为什么要有 hashCode和equals 方法？初级
+Java基础数据类型float及double为什么不能精确的表示小数，能用IEEE754浮点数运算标准计算一下20014998f的BinaryString吗？ 高级
+说一下关系型数据库设计三大范式？ 初级
+对比Synchronized 和 ReenTrantLock？高级
+至少列举2个JDK基于AQS框架的实现类，并分别阐述其特性？中级
+双重校验锁实现单例对象（线程安全），阐明Synchronized 和valite的作用？ 中级
+HashMap的长度为什么要是2的n次方? 中级 https://www.cnblogs.com/zhimingxin/p/8609545.html
+说下ThreadLocal的使用以及注意事项，如何解决hash冲突？中级 https://cloud.tencent.com/developer/article/1125199
+至少列举2个JDK提供的并发容器，并分别讲一下特性和原理？ 中级
+乐观锁与悲观锁的应用场景？中级
+对比一下zookeeper和redis分布式锁？中级
+如何实现一个单点登录系统，满足单点登录，单点登出，可跨域实施？ 高级
+阐明一种限流算法（令牌桶）？如何用redis实现？高级
+讲一下布隆过滤器的使用场景，简述其实现原理，为何不支持删除？高级lic
+JVM垃圾回收策略，回收算法，分别介绍一下CMS和G1收集器的特点?中级
+JVM如何判断一个对象已经死亡（两种方法）？初级
+分别介绍强软弱虚四个引用，其构造函数中的队列有什么用？高级 https://www.cnblogs.com/mfrank/p/9781216.html
+阐明Jvm类加载器，以及双亲委派模型？初级
+总结5类HTTP状态码，阐述301和302状态码的区别？中级
+事物隔离级别，说明脏读和幻读有什么区别？中级
+一颗二叉树的前序遍历是ABCDFGHE，后序遍历是BGHFDECA，中序遍历是？高级
+手写代码，递归翻转二叉树？中级
+手写代码，用两个栈实现一个队列？高级
+分别阐述一下LRU和FIFO缓存机制，如何实现，使用场景？高级
